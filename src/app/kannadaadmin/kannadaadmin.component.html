@@ -1,0 +1,121 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="Admin"><img class="img" src="../assets/image/logo1.jpg"></a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">News Update</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="Admin"><i class='bx bx-home'></i> HOME</a></li>
+          <li>
+            <a href="Businessadmin"><i class='bx bx-category'></i> CATEGORIES</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="Businessadmin"><i class='bx bxs-business'></i> BUSINESS</a></li>
+              <li><a href="Educationadmin"><i class='bx bxs-book'></i> EDUCATION</a></li>
+              <li><a href="Sportsadmin"><i class='bx bx-trophy' ></i> SPORTS</a></li>
+              <li><a href="Technologyadmin"><i class='bx bx-desktop'></i> TECHNOLOGY</a></li>
+              <li><a href="Weatheradmin"><i class='bx bx-wind'></i> WEATHER</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="Englishadmin"><i class='bx bxs-news'></i> NEWSPAPERS</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="Englishadmin"><i class="fas fa-globe"></i> ENGLISH</a></li>
+              <li><a href="Hindiadmin"><i class="fas fa-newspaper"></i> HINDI</a></li>
+              <li><a href="Kannadaadmin"><i class="fas fa-book-open"></i> KANNADA</a></li>
+              <li><a href="Malayalamadmin"><i class="fas fa-network-wired"></i> MALAYALAM</a></li>
+              <li><a href="Tamiladmin"><i class="fas fa-align-justify"></i> TAMIL</a></li>
+              <li><a href="Teluguadmin"><i class="fas fa-newspaper"></i> TELUGU</a></li>
+            </ul>
+          </li>
+          <li><a href="Feedback"><i class='bx bx-comment-dots'></i> COMMENT</a></li>
+          <li><a href="Userdetails"><i class='bx bxs-user-rectangle'></i> USERDETAILS</a></li>
+          <li><a href="Home"><i class='bx bx-log-out'></i> LOGOUT</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <br> <br> <br>
+  <h2 align="center" class="head">Kannada Newspaper</h2>
+
+<div class="container">
+  <form [formGroup]="formValue">
+    <div class="row">
+      <div class="col-25">
+        <label for="name">NAME</label>
+      </div>
+      <div class="col-75">
+        <input formControlName="name" type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="link">LINK</label>
+      </div>
+      <div class="col-75">
+        <input formControlName="link" type="text" class="form-control" id="exampleInputPassword1"  placeholder="Enter your link..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="image">IMAGE</label>
+      </div>
+      <div class="col-75">
+        <input formControlName="image" type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your image..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="description">DESCRIPTION</label>
+      </div>
+      <div class="col-75">
+        <input formControlName="description" type="text" class="form-control" id="exampleInputPassword1"placeholder="Enter your description..">
+      </div>
+    </div>
+    <div class="submit">
+      <button style="margin-left: 70px; background-color: chartreuse;" (click)="postKannadaDetails()">Add</button>
+    </div>
+  </form>
+</div>
+<br>
+<br>
+  <!---------------------------------- START OF HTML FOR FORM ------------------------------->
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Link</th>
+          <th scope="col">Image</th>
+          <th scope="col">Description</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of kannadaData">
+          <td>{{row.name}}</td>
+          <td>{{row.link}}</td>
+          <td>{{row.image}}</td>
+          <td>{{row.description}}</td>
+          <td>
+            <button style="background-color: red ;" (click)="deleteKannada(row)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  <!---------------------------------- END OF HTML FOR FORM ------------------------------->
+
+</body>

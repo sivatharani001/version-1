@@ -1,0 +1,127 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="Home"><img src="../assets/image/logo1.jpg"></a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">News Update</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="Home"><i class='bx bx-home'></i> HOME</a></li>
+          <li>
+            <a href="#"><i class='bx bx-category'></i> CATEGORIES</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="Business"><i class='bx bxs-business'></i> BUSINESS</a></li>
+              <li><a href="Education"><i class='bx bxs-book'></i> EDUCATION</a></li>
+              <li><a href="Sports"><i class='bx bx-trophy' ></i> SPORTS</a></li>
+              <li><a href="Technology"><i class='bx bx-desktop'></i> TECHNOLOGY</a></li>
+              <li><a href="Weather"><i class='bx bx-wind'></i> WEATHER</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"><i class='bx bxs-news'></i> NEWSPAPERS</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="English"><i class="fas fa-globe"></i> ENGLISH</a></li>
+              <li><a href="Hindi"><i class="fas fa-newspaper"></i> HINDI</a></li>
+              <li><a href="Kannada"><i class="fas fa-book-open"></i> KANNADA</a></li>
+              <li><a href="Malayalam"><i class="fas fa-network-wired"></i> MALAYALAM</a></li>
+              <li><a href="Tamil"><i class="fas fa-align-justify"></i> TAMIL</a></li>
+              <li><a href="Telugu"><i class="fas fa-newspaper"></i> TELUGU</a></li>
+            </ul>
+          </li>
+          <li><a href="Login"><i class='bx bx-comment-dots'></i> COMMENT</a></li>
+          <li><a href="Login"><i class='bx bxs-user-rectangle'></i> LOGIN</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="text-center">
+            <h1>Login</h1>
+          </div>
+
+            <form [formGroup]="loginForm" (ngSubmit)="login()">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email<br></label>
+                <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1">
+                <br>
+                <span  class="text-danger" *ngIf="loginForm.controls['email'].dirty && loginForm.hasError('required', 'email')">*Email id is required</span>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password<br></label>
+                <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+              </div><br>
+              <span  class="text-danger" *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required', 'password')">*Password id is required</span>
+              <br>
+              <button type="submit"  class="submit">Login</button>
+            </form><br>
+            <a routerLink="/Signup" style="color:dodgerblue;">New user? Click to signup!</a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+  <div class="container">
+    <h2 align="center">Login</h2>
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+      <div class="row">
+        <div class="col-25">
+          <label for="email">Email</label>
+        </div>
+        <div class="col-75">
+          <input formControlName="email" type="text" class="form-control" required ngModel email="email">
+          <span *ngIf="!email.valid && email.touched" class="error-block">
+            <span *ngIf="email.hasError('required')">
+              Please provide email id
+            </span>
+            <span *ngIf="email.hasError('email')">
+              Please provide valid email id
+            </span>
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="link">Password</label>
+        </div>
+        <div class="col-75">
+          <input formControlName="password" type="password" class="form-control" required ngModel email="email" >
+          <span *ngIf="!password.valid && password.touched" class="error-block">
+            <span *ngIf="password.hasError('required')">
+              Please provide password with 1 uppercase 1 special character numbers & lowercase
+            </span>
+            <span *ngIf="password.hasError('password')">
+              Password should not be lesser than 8 character
+            </span>
+          </span>
+        </div>
+      </div>
+      <div class="submit">
+        <button class="button">Login</button>
+      </div>
+    </form>
+    <br>
+            <a class="login" routerLink="/Signup">New user? Click to signup!</a>
+  </div>
+
+
+
+  </body>

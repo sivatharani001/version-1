@@ -1,0 +1,59 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo" ><img class="image" src="../assets/image/logo1.jpg"></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">News Update</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="Viewcomment"><i class='bx bx-comment-dots'></i> VIEW FEEDBACK</a></li>
+          <li><a href="Login"><i class='bx bx-log-out'></i> LOGOUT</a></li>
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="container">
+    <form [formGroup]="formValue">
+      <div class="row">
+        <div class="col-25">
+          <label for="name">Name</label>
+        </div>
+        <div class="col-75">
+          <input formControlName="name" type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="email">Email</label>
+        </div>
+        <div class="col-75">
+          <input formControlName="email" type="text" class="form-control" id="exampleInputPassword1"  placeholder="Enter your email..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="feedback">Feedback</label>
+        </div>
+        <div class="col-75">
+          <input formControlName="feedback" type="text" class="form-control" id="exampleInputPassword1"placeholder="Enter your feedback..">
+        </div>
+      </div>
+      <div class="submit">
+        <button style="margin-left: 70px; background-color: aqua;" (click)="postCommentDetails()">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
