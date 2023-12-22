@@ -1,0 +1,1069 @@
+{
+  "userdetails": [
+    {
+      "name": "Sivatharani",
+      "email": "tharanivenkat17@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "email": "priya@gmail.com",
+      "name": "priya",
+      "password": "Priya@01",
+      "id": 2
+    },
+    {
+      "email": "ranjani@gmail.com",
+      "name": "ranjani",
+      "password": "Ranjani@01",
+      "id": 3
+    },
+    {
+      "email": "naveena@gmail.com",
+      "name": "naveena",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "email": "2k19cse099@kiot.ac.in",
+      "name": "tharani",
+      "password": "Tharani@01",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "sharulatha",
+      "email": "sharulatha@gmail.com",
+      "password": "Sharu@001"
+    },
+    {
+      "id": 7,
+      "name": "mani",
+      "email": "mani@gmail.com",
+      "password": "Mani@001"
+    },
+    {
+      "email": "siva@gmail.com",
+      "name": "siva",
+      "password": "123qww@S",
+      "id": 8
+    },
+    {
+      "email": "siva1@gmail.com",
+      "name": "siva",
+      "password": "Siva@01",
+      "id": 9
+    }
+  ],
+  "admin": [
+    {
+      "email": "admin@gmail.com",
+      "password": "Admin@001",
+      "id": 1
+    }
+  ],
+  "comment": [
+    {
+      "name": "Sivatharani",
+      "email": "tharanivenkat17@gmail.com",
+      "feedback": "Useful to read different language newspapers",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "tharani",
+      "email": "2k19cse099@kiot.ac.in",
+      "feedback": "This website is useful to read newspapers"
+    },
+    {
+      "id": 3,
+      "name": "priya",
+      "email": "priya@gmail.com",
+      "feedback": "technology news is useful to attend contest"
+    },
+    {
+      "id": 4,
+      "name": "ranjani",
+      "email": "ranjani@gmail.com",
+      "feedback": "Different language newspapers are available"
+    },
+    {
+      "id": 5,
+      "name": "naveena",
+      "email": "naveena@gmail.com",
+      "feedback": "Many tamil newspapers are available here"
+    },
+    {
+      "id": 6,
+      "name": "sharulatha",
+      "email": "sharulatha@gmail.com",
+      "feedback": "Many english newspapers are available here"
+    },
+    {
+      "id": 7,
+      "name": "mani",
+      "email": "mani@gmail.com",
+      "feedback": "Different university news there in educational news"
+    }
+  ],
+  "business": [
+    {
+      "name": "The Economic Times",
+      "link": "https://m.economictimes.com/",
+      "image": "../assets/image/The Economic Times.png",
+      "description": "Read Latest Financial news, Stock/Share Market News, Economy News, Business News on The Economic Times. Find IPO Analysis, Mutual Funds ..",
+      "id": 1
+    },
+    {
+      "name": "Business Standard",
+      "link": "https://www.business-standard.com/",
+      "image": "../assets/image/Business Standard.png",
+      "description": "Get latest stock share market news, financial news, budget 2023 news, economy news, company news, politics news, India news, breaking news at ...",
+      "id": 2
+    },
+    {
+      "name": "Business Today",
+      "link": "https://www.businesstoday.in/",
+      "image": "../assets/image/Business Today.png",
+      "description": "Get latest business news from India, breaking business news updates, live share market news today, trending business news, stocks, IPO, ...",
+      "id": 3
+    },
+    {
+      "name": "Live Mint",
+      "link": "https://www.livemint.com/",
+      "image": "../assets/image/Live Mint.jpg",
+      "description": "Read latest Business News headlines, LIVE share market news and updates, financial, economic and banking news from India & across the World ...",
+      "id": 4
+    },
+    {
+      "name": "The Financial Express",
+      "link": "https://www.financialexpress.com/",
+      "image": "../assets/image/The Financial Express.png",
+      "description": "Find here latest business news and finance news, share market updates, live stock market news, IPO update, banking and insurance sector ...",
+      "id": 5
+    },
+    {
+      "name": "Times Of India",
+      "link": "https://timesofindia.indiatimes.com/business",
+      "image": "../assets/image/Times of India.png",
+      "description": "Check latest updates on business, finance and economy from across the world. Get daily updates for BSE Sensex, Share price, Stock markets, BSE, NSE, Nifty, ...",
+      "id": 6
+    },
+    {
+      "name": "The Hindu",
+      "link": "https://www.thehindu.com/business/",
+      "image": "../assets/image/The Hindu.png",
+      "description": "Catch All The Latest News And Updates On Business, Finance, Economy, Stock Market, BSE, NSE, Nifty, Sensex & Much More At The Hindu.",
+      "id": 7
+    },
+    {
+      "name": "Financial Times",
+      "link": "https://www.ft.com/",
+      "image": "../assets/image/Financial Times.png",
+      "description": "News, analysis and comment from the Financial Times, the world leading global business publication.",
+      "id": 8
+    },
+    {
+      "name": "The Hindu Business Line",
+      "link": "https://www.thehindubusinessline.com/",
+      "image": "../assets/image/The Hindu Business Line.jpg",
+      "description": "BusinessLine India leading website for business and financial news, BSE and NSE quotes, stock recommendations, market analysis and research, politics, ...",
+      "id": 9
+    },
+    {
+      "name": "Bloomberg",
+      "link": "https://www.bloomberg.com/",
+      "image": "../assets/image/Bloomberg.png",
+      "description": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News.",
+      "id": 10
+    }
+  ],
+  "education": [
+    {
+      "name": "Anna University",
+      "link": "https://www.annauniv.edu/",
+      "image": "../assets/image/Anna University.png",
+      "description": "Anna University is a public state university located in Tamil Nadu, India. The main campus is in Chennai. It offers higher education in Engineering, Technology, Architecture ...",
+      "id": 1
+    },
+    {
+      "name": "Annamalai University",
+      "link": "https://annamalaiuniversity.ac.in/index.php",
+      "image": "../assets/image/Annamalai University.jpg",
+      "description": "Annamalai University with a sprawling campus of nearly 1000 acres is one of the largest residential Universities in Southern Asia comprising of 10 Faculties and 49 departments of study located at Chidambaram.",
+      "id": 2
+    },
+    {
+      "name": "M.G.R University",
+      "link": "https://www.tnmgrmu.ac.in/",
+      "image": "../assets/image/M.G.R University.jpg",
+      "description": "The Tamil Nadu Dr. M.G.R. Medical University is a government medical university situated in Guindy in the southern part of the city of Chennai, Tamil Nadu, India.",
+      "id": 3
+    },
+    {
+      "name": "Chennai Mathematical Institute",
+      "link": "https://www.cmi.ac.in/",
+      "image": "../assets/image/Chennai Mathematical Institute.jpg",
+      "description": "Chennai Mathematical Institute is a centre of excellence for teaching and research in the mathematical sciences.",
+      "id": 4
+    },
+    {
+      "name": "Tamil Nadu Dr. Ambedkar Law University",
+      "link": "https://www.tndalu.ac.in/",
+      "image": "../assets/image/Ambedkar Law University.jpg",
+      "description": "The Tamil Nadu Dr. Ambedkar Law University Act, 1996, which also brought all law colleges in Tamil Nadu under the control of the university.",
+      "id": 5
+    },
+    {
+      "name": "Tamil Nadu Veterinary and Animal Sciences",
+      "link": "https://www.tanuvas.ac.in/",
+      "image": "../assets/image/Veterinary and Animal Sciences.png",
+      "description": "Veterinary Incubation Foundation (VIF) @ TANUVAS nurtures start-up companies and entrepreneurs in the area of veterinary, animal sciences and allied sectors.",
+      "id": 6
+    },
+    {
+      "name": "Hindustan Institute of Technology & Science",
+      "link": "https://hindustanuniv.ac.in/",
+      "image": "../assets/image/Hindustan Institute.jpg",
+      "description": "BBA Hospitality Management Course in Chennai, BBA Agricultural Business Management Course in Chennai, BBA Logistics Course in Chennai, BBA BMS Course in ...",
+      "id": 7
+    },
+    {
+      "name": "Indian Maritime University",
+      "link": "https://www.imu.edu.in/",
+      "image": "../assets/image/Indian Maritime University.webp",
+      "description": "The Indian Maritime University is a public central university directly under the Ministry of Ports, Shipping and Waterways, in India.",
+      "id": 8
+    }
+  ],
+  "english": [
+    {
+      "name": "The Times Of India",
+      "link": "https://timesofindia.indiatimes.com/?from=mdr",
+      "image": "../assets/image/THE TIMES OF INDIA.jpg",
+      "description": "Read Latest News on Sports, Business, Entertainment, Blogs and Opinions from leading columnists.",
+      "id": 1
+    },
+    {
+      "name": "The Hindu",
+      "link": "https://www.thehindu.com/",
+      "image": "../assets/image/the hindu.jfif",
+      "description": "Today News Headlines, Breaking News & Latest News from India and World, News from Politics, Sports, Business, Arts and Entertainment.",
+      "id": 2
+    },
+    {
+      "name": "The Indian Express",
+      "link": "https://indianexpress.com/",
+      "image": "../assets/image/The Indian Express.png",
+      "description": "Get all exclusive Latest News, Breaking News, Live News Online from India and around the Globe.",
+      "id": 3
+    },
+    {
+      "name": "Hindustan Times",
+      "link": "https://www.hindustantimes.com/",
+      "image": "../assets/image/Hindustan Times.jpg",
+      "description": "Hindustan Times provides exclusive top stories of the day, today headlines from politics, business, technology, photos, videos, ...",
+      "id": 4
+    },
+    {
+      "name": "The Telegraph (India)",
+      "link": "https://www.telegraphindia.com/",
+      "image": "../assets/image/The Telegraph (India).png",
+      "description": "Read Latest News on Politics, Business, Sports, Bollywood, Technology, and Science on The Telegraph India.",
+      "id": 5
+    },
+    {
+      "name": "Deccan Chronicle",
+      "link": "https://www.deccanchronicle.com/",
+      "image": "../assets/image/Deccan Chronicle.jpg",
+      "description": "Deccan Chronicle brings you the latest news, views, analysis and images from India and the world.",
+      "id": 6
+    },
+    {
+      "name": "The Asian Age",
+      "link": "https://www.asianage.com/",
+      "image": "../assets/image/The Asian Age.png",
+      "description": "The Asian Age epaper describes the news all over the asian countrys.",
+      "id": 7
+    },
+    {
+      "name": "Deccan Herald",
+      "link": "'https://www.deccanherald.com/",
+      "image": "../assets/image/Deccan Herald.png",
+      "description": "Find the Latest News Headlines from India & around the World. Deccan Herald brings breaking news, today Live News on Sports, Business, ...",
+      "id": 8
+    },
+    {
+      "name": "The Economic Times",
+      "link": "https://m.economictimes.com/",
+      "image": "../assets/image/The Economic Times.jfif",
+      "description": "Read Latest Financial news, Stock/Share Market News, Economy News, Business News on The Economic Times.",
+      "id": 9
+    },
+    {
+      "name": "The Statesman",
+      "link": "https://www.thestatesman.com/",
+      "image": "../assets/image/The stateman.jpg",
+      "description": "The Statesman provides latest news today from India and the world. Get all exclusive Breaking News, current headlines, live news, ...",
+      "id": 10
+    },
+    {
+      "name": "The Pioneer",
+      "link": "https://www.dailypioneer.com/",
+      "image": "../assets/image/The Pioneer.jfif",
+      "description": "English news paper, today s newspaper - www.dailypioneer.com brings the today news in English, breaking news headlines from India around the World.",
+      "id": 11
+    },
+    {
+      "name": "The New Indian Express",
+      "link": "https://www.newindianexpress.com/",
+      "image": "../assets/image/The New Indian Express.jfif",
+      "description": "Latest India updates online, breaking news, and news from southern states of Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, Telangana and Odisha.",
+      "id": 12
+    }
+  ],
+  "hindi": [
+    {
+      "name": "Jagran",
+      "link": "https://www.jagran.com/",
+      "image": "../assets/image/Jagran.png",
+      "description": "Jagran is one of the most widely circulated Hindi newspapers.",
+      "id": 1
+    },
+    {
+      "name": "Dainik Bhaskar",
+      "link": "https://www.bhaskar.com/",
+      "image": "../assets/image/Dainik Bhaskar.png",
+      "description": "Leading Hindi newspaper based in Bhopal, Madhya Pradesh.",
+      "id": 2
+    },
+    {
+      "name": "Amar Ujala",
+      "link": "https://www.amarujala.com/",
+      "image": "../assets/image/Amar Ujala.png",
+      "description": "Amar Ujala is one of the largest Hindi-language newspapers.",
+      "id": 3
+    },
+    {
+      "name": "Hindustan",
+      "link": "https://www.livehindustan.com/",
+      "image": "../assets/image/Hindustan.png",
+      "description": "One of the top selling Hindi-language daily newspapers in India.",
+      "id": 4
+    },
+    {
+      "name": "NavBharat Times",
+      "link": "https://navbharattimes.indiatimes.com/",
+      "image": "../assets/image/NavBharat Times.png",
+      "description": "Navbharat Times a Hindi newspaper distributed in Delhi, Mumbai, Lucknow and Kanpur. It is from the stable of Bennett, Coleman & Co. Ltd",
+      "id": 5
+    },
+    {
+      "name": "Patrika",
+      "link": "https://www.patrika.com/",
+      "image": "../assets/image/Patrika.png",
+      "description": "Popular Hindi newspaper in Madhya Pradesh and Chhattisgarh.",
+      "id": 6
+    },
+    {
+      "name": "Jansatta",
+      "link": "https://www.jansatta.com/",
+      "image": "../assets/image/Jansatta.png",
+      "description": "Jansatta is The Indian Express Groups Hindi news venture. It upholds the groups value of credible and fearless journalism.",
+      "id": 7
+    },
+    {
+      "name": "Punjab Kesari",
+      "link": "https://www.punjabkesari.in/",
+      "image": "../assets/image/Punjab Kesari.png",
+      "description": "Daily newspaper published from Punjab and Haryana in India.",
+      "id": 8
+    },
+    {
+      "name": "Lokmat Samachar",
+      "link": "http://epaper.lokmat.com/lokmatsamachar/index.php",
+      "image": "../assets/image/Lokmat Samachar.png",
+      "description": "Hindi newspaper published by Lokmat Group.",
+      "id": 9
+    },
+    {
+      "name": "Prabhat Khabar",
+      "link": "https://www.prabhatkhabar.com/",
+      "image": "../assets/image/Prabhat Khabar.png",
+      "description": "Daily newspaper based in Ranchi, the capital of Jharkhand.",
+      "id": 10
+    },
+    {
+      "name": "Nai Dunia",
+      "link": "https://epaper.naidunia.com/epaper/",
+      "image": "../assets/image/Nai Dunia.png",
+      "description": "Indore based leading Hindi-language daily newspaper.",
+      "id": 11
+    },
+    {
+      "name": "Divya Himachal",
+      "link": "https://www.divyahimachal.com/",
+      "image": "../assets/image/Divya Himachal.png",
+      "description": "The newspaper distributed in Himachal Pradesh, Punjab, Haryana, Uttranchal and Chandigarh (UT).",
+      "id": 12
+    },
+    {
+      "name": "Deshdoot",
+      "link": "https://www.deshdoot.com/",
+      "image": "../assets/image/Deshdoot.png",
+      "description": "Leading newspaper distributed in north Maharashtra.",
+      "id": 13
+    },
+    {
+      "name": "Tribune",
+      "link": "https://www.dainiktribuneonline.com/",
+      "image": "../assets/image/Tribune.png",
+      "description": "Published and distributed in Chandigarh, New Delhi, Jalandhar, Dehradun and Bathinda.",
+      "id": 14
+    },
+    {
+      "name": "Deshbandhu",
+      "link": "http://www.deshbandhu.co.in/",
+      "image": "../assets/image/Deshbandhu.png",
+      "description": "Deshbandhu published from Raipur, Bilaspur, Bhopal, Indore, Jabalpur, and Satna.",
+      "id": 15
+    },
+    {
+      "name": "One India Tamil",
+      "link": "http://www.rashtriyasahara.com/",
+      "image": "../assets/image/Rastriya Sahara.png",
+      "description": "Featuring latest local news and information from Delhi, Lucknow, Ghaziabad, Patna, Dehradoon, Kanpur, and Gorakhpur.",
+      "id": 16
+    },
+    {
+      "name": "Hindi Milap",
+      "link": "http://www.webmilap.com/",
+      "image": "../assets/image/Hindi Milap.png",
+      "description": "Hyderabad based Hindi-language newspaper.",
+      "id": 17
+    },
+    {
+      "name": "Uttam Hindu",
+      "link": "https://www.uttamhindu.com/",
+      "image": "../assets/image/Uttam Hindu.png",
+      "description": "National Hindi-language newspaper of Northern India, which is being published simultaneously from Jalandhar & New Delhi.",
+      "id": 18
+    },
+    {
+      "name": "Lok Tej",
+      "link": "https://www.loktej.com/",
+      "image": "../assets/image/Lok Tej.png",
+      "description": "The newspaper featuring sports, cinema, career, tourism, religion, shopping, and more.",
+      "id": 19
+    },
+    {
+      "name": "Ranchi Express",
+      "link": "http://ranchiexpress.com/",
+      "image": "../assets/image/Ranchi Express.png",
+      "description": "Primarily distributed in the Jharkhand State.",
+      "id": 20
+    },
+    {
+      "name": "Vir Arjun",
+      "link": "http://www.virarjun.com/",
+      "image": "../assets/image/Vir Arjun.png",
+      "description": "National Hindi daily newspaper published from New Delhi, India.",
+      "id": 21
+    },
+    {
+      "name": "Sandhya Prakash",
+      "link": "https://dainiksandhyaprakash.com/",
+      "image": "../assets/image/Sandhya Prakash.png",
+      "description": "Newspaper published in Bhopal, Madhya Pradesh, India.",
+      "id": 22
+    },
+    {
+      "name": "Sandhya Pravakta",
+      "link": "https://sandhyapravakta.com/",
+      "image": "../assets/image/Sandhya Pravakta.png",
+      "description": "Evening newspaper published in Patna, Bihar.",
+      "id": 23
+    }
+  ],
+  "kannada": [
+    {
+      "name": "Udayavani (Morning Voice)",
+      "link": "https://www.udayavani.com/",
+      "image": "../assets/image/Udayavani (Morning Voice).png",
+      "description": "Leading Kannada daily newspaper based in Manipal.",
+      "id": 1
+    },
+    {
+      "name": "Prajavani",
+      "link": "https://www.prajavani.net/",
+      "image": "../assets/image/Prajavani.png",
+      "description": "One of the largest Kannada-language newspapers.",
+      "id": 2
+    },
+    {
+      "name": "Kannada Prabha",
+      "link": "https://www.kannadaprabha.com/",
+      "image": "../assets/image/Kannada Prabha.png",
+      "description": "A daily broadsheet format newspaper in Karnataka.",
+      "id": 3
+    },
+    {
+      "name": "Vijaya Karnataka",
+      "link": "https://vijaykarnataka.com/",
+      "image": "../assets/image/Vijaya Karnataka.png",
+      "description": "Major Kannada-language daily newspaper.",
+      "id": 4
+    },
+    {
+      "name": "Vijaya Vani",
+      "link": "http://epapervijayavani.in/",
+      "image": "../assets/image/Vijaya Vani ePaper.png",
+      "description": "Vijayavani (Kannada: ವಿಜಯವಾಣಿ) is a Kannada-language daily newspaper distributed in the Indian state of Karnataka.",
+      "id": 5
+    },
+    {
+      "name": "Vishwavani News",
+      "link": "http://vishwavani.news/",
+      "image": "../assets/image/Vishwavani News.png",
+      "description": "It is one of the oldest Kannada newspapers, published by Vishwakshara Media Pvt. Ltd.",
+      "id": 6
+    },
+    {
+      "name": "Varthabharathi",
+      "link": "https://www.varthabharati.in/",
+      "image": "../assets/image/Varthabharathi.png",
+      "description": "Kannada newspaper published from Mangalore and Bangalore.",
+      "id": 7
+    },
+    {
+      "name": "Praja Pragathi",
+      "link": "https://prajapragathi.com/",
+      "image": "../assets/image/Praja Pragathi.png",
+      "description": "Popular Kannada newspaper primarily distributed in Tumkur, Chitradurga and Davanagere.",
+      "id": 8
+    },
+    {
+      "name": "Sanjevani",
+      "link": "https://www.sanjevani.com/",
+      "image": "../assets/image/Sanjevani.png",
+      "description": "Leading Kannada newspaper based in Bangalore.",
+      "id": 9
+    },
+    {
+      "name": "Kannada Dunia",
+      "link": "https://kannadadunia.com/",
+      "image": "../assets/image/Kannada  Dunia.png",
+      "description": "Kannada News portal covering major events and articles in Kannada language about Karnataka news. India news and International News.",
+      "id": 10
+    },
+    {
+      "name": "Samyuktha Karnataka",
+      "link": "http://epaper.samyukthakarnataka.com/",
+      "image": "../assets/image/Samyuktha Karnataka.png",
+      "description": "Daily newspaper based in in Hubli, Karnataka. The newspaper founded by Loka Shikshana Trust.",
+      "id": 11
+    },
+    {
+      "name": "SahilOnline",
+      "link": "http://www.sahilonline.net/ka",
+      "image": "../assets/image/SahilOnline (Kannada).png",
+      "description": "Leading Kannada news source.",
+      "id": 12
+    },
+    {
+      "name": "Sudharma",
+      "link": "https://sudharmasanskritdaily.in/",
+      "image": "../assets/image/Sudharma.png",
+      "description": "Karnataka only daily newspaper published in Sanskrit language.",
+      "id": 13
+    }
+  ],
+  "malayalam": [
+    {
+      "name": "Malayala Manorama",
+      "link": "https://www.manoramaonline.com/",
+      "image": "../assets/image/Malayala Manorama.jpg",
+      "description": "Breaking News Kerala India. Politics News Events. Sports News. Movie News. Lifestyle News. E Paper.",
+      "id": 1
+    },
+    {
+      "name": "Mathrubhumi",
+      "link": "https://www.prajavani.net/",
+      "image": "../assets/image/Mathrubhumi.jpg",
+      "description": "Brings You Latest News,Kerala Latest News,News Malayalam,India News and World News ...",
+      "id": 2
+    },
+    {
+      "name": "Kerala Kaumudi",
+      "link": "https://www.keralakaumudi.com/",
+      "image": "../assets/image/Kerala Kaumudi.jpg",
+      "description": "Latest News, Breaking News, Audio News, Kerala News, India News, World News, Politics, Cinema, Travel, Cartoons, Photogallery.",
+      "id": 3
+    },
+    {
+      "name": "Deshabhimani",
+      "link": "https://www.deshabhimani.com/",
+      "image": "../assets/image/Deshabhimani.jpg",
+      "description": "Latest Malayalam News from Deshabhimani. Breaking News Kerala India. Politics News Events. Sports News. Movie News. Lifestyle News. E Paper.. Malayalam News ...",
+      "id": 4
+    },
+    {
+      "name": "Deepika",
+      "link": "http://epapervijayavani.in/",
+      "image": "../assets/image/Deepika (newspaper).jpg",
+      "description": "Malayalam News, Latest Malayalam News,Kerala News, malaylam online news ,Deepika online, rashtradeepika, Kerala Tourism,Kerala travel,E-Paper ...",
+      "id": 5
+    },
+    {
+      "name": "Madhyamam",
+      "link": "https://www.madhyamam.com/",
+      "image": "../assets/image/Madhyamam.png",
+      "description": "Latest Malayalam News & Breaking news (മലയാളം വാർത്തകൾ). Kerala news, India news, Political news, educational news, business news, sports news.",
+      "id": 6
+    },
+    {
+      "name": "Chandrika",
+      "link": "http://epaper.chandrikadaily.com/",
+      "image": "../assets/image/Chandrika (newspaper).png",
+      "description": "Chandrika is a leading Malayalam newspaper from Malabar region in Kerala. It is published from Kozhikode, Kannur, Malappuram, Kochi, Trivandrum, Kottayam, ...",
+      "id": 7
+    },
+    {
+      "name": "Janmabhumi",
+      "link": "https://www.janmabhumi.in/",
+      "image": "../assets/image/Janmabhumi.png",
+      "description": "Malayalam latest news, news analysis, opinions and editorials. Local news about Kerala and districts of Kerala. National news and international news.",
+      "id": 8
+    },
+    {
+      "name": "Siraj Daily",
+      "link": "https://www.sirajlive.com/",
+      "image": "../assets/image/Siraj Daily.jpg",
+      "description": "Siraj Daily. Technology; Health; First Gear; Science; Religion; Business; Education; Odd News; Opinions.",
+      "id": 9
+    },
+    {
+      "name": "Pravasi Express",
+      "link": "https://www.pravasiexpress.com/",
+      "image": "../assets/image/Pravasi Express.png",
+      "description": "Pravasi Publications formed in 2012 entering to publishing arena, with launch of Malayalam fortnight newspaper Pravasi Express from Singapore.",
+      "id": 10
+    },
+    {
+      "name": "Thejas",
+      "link": "https://www.thejasnews.com/",
+      "image": "../assets/image/Thejas.jpg",
+      "description": "Latest Malayalam News from Thejas News. Breaking News Kerala India. Politics News Events. Sports News. Movie News. Lifestyle News. Malayala. Malayalam News.",
+      "id": 11
+    },
+    {
+      "name": "Janayugom",
+      "link": "https://janayugomonline.com/",
+      "image": "../assets/image/Janayugom.png",
+      "description": "Janayugom is a Malayalam daily newspaper published in Kerala, India.",
+      "id": 12
+    }
+  ],
+  "sports": [
+    {
+      "name": "Sky Sports",
+      "link": "https://www.skysports.com/",
+      "image": "../assets/image/Sky Sports.png",
+      "description": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, F1, Boxing, NFL, NBA, plus the latest sports news, transfers & scores.",
+      "id": 1
+    },
+    {
+      "name": "ESPN India",
+      "link": "https://www.espn.in/",
+      "image": "../assets/image/ESPN India.png",
+      "description": "Visit ESPN for live scores, highlights and sports news. Stream exclusive games on ESPN+ and play fantasy sports.",
+      "id": 2
+    },
+    {
+      "name": "Times of India",
+      "link": "https://timesofindia.indiatimes.com/sports",
+      "image": "../assets/image/Times of India.png",
+      "description": "The Times of India Sports gives you latest sports news, cricket score, live cricket score, wwe results and milestones; covers all sporting events, ...",
+      "id": 3
+    },
+    {
+      "name": "Indian Express",
+      "link": "https://indianexpress.com/section/sports/",
+      "image": "../assets/image/Indian Express.png",
+      "description": "Latest Sports News: Get all news coverage on different sports, from Cricket to Football, Tennis, WWE along with latest updates on India vs Australia 2023, ...",
+      "id": 4
+    },
+    {
+      "name": "The Sports News",
+      "link": "https://www.thesportsnews.in/",
+      "image": "../assets/image/The Sports News.jpg",
+      "description": "The Sports News is all about all news about cricket, football, and any sports that you name, also Sports Business News.",
+      "id": 5
+    },
+    {
+      "name": "NDTV",
+      "link": "https://sports.ndtv.com/",
+      "image": "../assets/image/NDTV.png",
+      "description": "NDTV Sports is the ultimate destination for Sports fans from around the World. Get latest sports news and updates from Cricket, Tennis, Football, ...",
+      "id": 6
+    },
+    {
+      "name": "Sports Keeda",
+      "link": "https://www.sportskeeda.com/",
+      "image": "../assets/image/Sports Keeda.jpg",
+      "description": "Get the latest sports news, live scores, daily fantasy suggestions, and eSports, gaming, wrestling, and pop culture news. Follow Sportskeeda and get news, ...",
+      "id": 7
+    },
+    {
+      "name": "The Athletic",
+      "link": "https://theathletic.com/",
+      "image": "../assets/image/The Athletic.png",
+      "description": "Unrivaled sports coverage across every team you care about and every league you follow. Get breaking news, powerful stories and smart ...",
+      "id": 8
+    },
+    {
+      "name": "Sporting News",
+      "link": "https://www.sportingnews.com/",
+      "image": "../assets/image/Sporting News.png",
+      "description": "The latest news, videos, scores and more on the biggest sports, including NFL, NBA, MLB, NCAA, Soccer, Boxing, NASCAR and more with Sporting News.",
+      "id": 9
+    }
+  ],
+  "tamil": [
+    {
+      "name": "Daily Thanthi",
+      "link": "https://www.dailythanthi.com/",
+      "image": "../assets/image/dailythanthi.png",
+      "description": "It is one of the most popular tamil newspapers.",
+      "id": 1
+    },
+    {
+      "name": "Dinamalar",
+      "link": "https://www.dinamalar.com/",
+      "image": "../assets/image/dinamalar.png",
+      "description": "Leading Tamil newspaper printed from Chennai, Coimbatore, Madurai, Puducherry, Trichy, Tirunelveli, and Salem.",
+      "id": 2
+    },
+    {
+      "name": "Maalai Malar",
+      "link": "https://www.maalaimalar.com/",
+      "image": "../assets/image/maalaimalar.png",
+      "description": "Daily Tamil newspaper published from Chennai &amp; Coimbatore.",
+      "id": 3
+    },
+    {
+      "name": "Dinakaran",
+      "link": "https://www.dinakaran.com/",
+      "image": "../assets/image/dinakaran.png",
+      "description": "Popular Tamil-language newspaper based in Chennai.",
+      "id": 4
+    },
+    {
+      "name": "Dinamani",
+      "link": "https://www.dinamani.com/",
+      "image": "../assets/image/dinamani.png",
+      "description": "Daily Tamil newspaper printed in Chennai &amp; Coimbatore, India.",
+      "id": 5
+    },
+    {
+      "name": "The Hindu (Tamil)",
+      "link": "https://www.hindutamil.in/",
+      "image": "../assets/image/thehindutamil.png",
+      "description": "Tamil daily newspaper published since 2013.",
+      "id": 6
+    },
+    {
+      "name": "Thinaboomi",
+      "link": "http://www.thinaboomi.com/",
+      "image": "../assets/image/thinaboomi.png",
+      "description": "Tamil daily newspaper, based in Madurai, Tamil Nadu.",
+      "id": 7
+    },
+    {
+      "name": "Theekkathir",
+      "link": "https://theekkathir.in/",
+      "image": "../assets/image/theekkathir.png",
+      "description": "Tamil-language newspaper published by Communist Party of India.",
+      "id": 8
+    },
+    {
+      "name": "Viduthalai",
+      "link": "https://viduthalai.in/",
+      "image": "../assets/image/viduthalaidaily.png",
+      "description": "Tamil newspaper delivers latest news and headlines.",
+      "id": 9
+    },
+    {
+      "name": "Tamil Murasu",
+      "link": "https://www.tamilmurasu.org/",
+      "image": "../assets/image/tamilmurasu.png",
+      "description": "Evening Tamil newspaper published daily in Chennai, Coimbatore, Salem, Erode, Tiruppur, Pondicherry, Madurai, Trichy, and Nagercoil.",
+      "id": 10
+    },
+    {
+      "name": "Dinasudar",
+      "link": "https://dinasudar.com/",
+      "image": "../assets/image/dinasudar.png",
+      "description": "Daily newspaper printed in Bengaluru, Karnataka, and Krishnagiri.",
+      "id": 11
+    },
+    {
+      "name": "Virakesari",
+      "link": "https://www.virakesari.lk/",
+      "image": "../assets/image/virakesari.png",
+      "description": "One of the oldest and the largest circulated Tamil newspapers in Sri Lanka. Virakesari is also distributed in India, Middle East, UK, Canada, USA, France, Germany, New Zealand, and Australia.",
+      "id": 12
+    },
+    {
+      "name": "Kathiravan",
+      "link": "https://www.kathiravan.com/",
+      "image": "../assets/image/kathiravan.png",
+      "description": "Providing comprehensive news coverage in Tamil.",
+      "id": 13
+    },
+    {
+      "name": "BBC News Tamil",
+      "link": "https://www.bbc.com/tamil",
+      "image": "../assets/image/BBCTamil.png",
+      "description": "Featuring news and analysis on politics, business, sports, and more.",
+      "id": 14
+    },
+    {
+      "name": "Google news in Tamil",
+      "link": "https://news.google.com/?hl=ta&amp;gl=IN&amp;ceid=IN%3Ata",
+      "image": "../assets/image/GoogleTamilNews.png",
+      "description": "Tamil news coverage, collected from different sources by Google.",
+      "id": 15
+    },
+    {
+      "name": "One India Tamil",
+      "link": "https://tamil.oneindia.com/",
+      "image": "../assets/image/OneIndiaTamil.png",
+      "description": "Tamil edition of leading news site.",
+      "id": 16
+    },
+    {
+      "name": "Paris Tamil",
+      "link": "http://www.paristamil.com/",
+      "image": "../assets/image/ParisTamil.png",
+      "description": "News site based in France.",
+      "id": 17
+    },
+    {
+      "name": "Tamil Murasu - Singapore",
+      "link": "https://www.tamilmurasu.com.sg/",
+      "image": "../assets/image/tamilmurasu.png",
+      "description": "Tamil language newspaper based in Singapore.",
+      "id": 18
+    },
+    {
+      "name": "Vanakkam London",
+      "link": "https://vanakkamlondon.com/",
+      "image": "../assets/image/vanakkamlondon.png",
+      "description": "Tamil language newspaper based in London.",
+      "id": 19
+    }
+  ],
+  "technology": [
+    {
+      "name": "TechGig",
+      "link": "https://www.techgig.com/",
+      "image": "../assets/image/TechGig.png",
+      "description": "TechGig is India largest tech community for programmers to read the latest tech news, learn, upskill & compete with fellow techies in hackathons ...",
+      "id": 1
+    },
+    {
+      "name": "Linked In Learning",
+      "link": "https://www.linkedin.com/learning/search?trk=guest_homepage-basic_guest_nav_menu_learning",
+      "image": "../assets/image/Linked In Learning.png",
+      "description": "LinkedIn Learning provides video courses taught by industry experts in software, creative, and business skills. It is a subsidiary of LinkedIn. All the courses on LinkedIn fall into four categories: Business, Creative, Technology and Certifications.",
+      "id": 2
+    },
+    {
+      "name": "Gadgets News",
+      "link": "https://www.gadgetsnow.com/latest-news",
+      "image": "../assets/image/Gadgets News.png",
+      "description": "Latest Technology News and Daily Updates on Gadgets 360. Get trending tech news, mobile phones, laptops, reviews, software updates, video games, ...",
+      "id": 3
+    },
+    {
+      "name": "Computer World",
+      "link": "https://www.computerworld.com/",
+      "image": "../assets/image/Computer World.png",
+      "description": "The latest IT news on technology topics, including operating systems, software, security, mobile, storage and Internet, emerging tech, and technology ...",
+      "id": 4
+    },
+    {
+      "name": "Digital IT News",
+      "link": "https://digitalitnews.com/",
+      "image": "../assets/image/Digital IT News.png",
+      "description": "Digital IT News, and its portfolio of sites, deliver IT news, trends and viewpoints for a digital world across all aspects of the IT landscape.",
+      "id": 5
+    },
+    {
+      "name": "Science News",
+      "link": "https://www.sciencenews.org/",
+      "image": "../assets/image/Science News.png",
+      "description": "Science News features news articles, videos and more about the latest scientific advances. Independent, accurate nonprofit news since 1921.",
+      "id": 6
+    }
+  ],
+  "telugu": [
+    {
+      "name": "Eenadu (ఈనాడు)",
+      "link": "https://www.eenadu.net/",
+      "image": "../assets/image/Eenadu (ఈనాడు).png",
+      "description": "One of the largest circulated Telugu newspapers.",
+      "id": 1
+    },
+    {
+      "name": "Andhra Jyothi (ఆంధ్ర జ్యోతి)",
+      "link": "https://www.andhrajyothy.com/",
+      "image": "../assets/image/Andhra Jyothi (ఆంధ్ర జ్యోతి).png",
+      "description": "Popular Telugu newspaper published in Andhra Pradesh.",
+      "id": 2
+    },
+    {
+      "name": "Sakshi",
+      "link": "https://www.sakshi.com/",
+      "image": "../assets/image/Sakshi.png",
+      "description": "Telugu news daily from Hyderabad, India.",
+      "id": 3
+    },
+    {
+      "name": "Andhra Bhoomi (ఆంధ్ర భూమి)",
+      "link": "http://www.andhrabhoomi.net/",
+      "image": "../assets/image/Andhra Bhoomi (ఆంధ్ర భూమి).png",
+      "description": "Leading Telugu-language daily newspaper published from Hyderabad, Vijayawada, Anantapur, Visakhapatnam, Rajahmundry, and Nellore.",
+      "id": 4
+    },
+    {
+      "name": "Vaartha",
+      "link": "https://www.vaartha.com/",
+      "image": "../assets/image/Vaartha.png",
+      "description": "Telugu-language newspaper published by AGA Publications.",
+      "id": 5
+    },
+    {
+      "name": "Namasthe Telangana",
+      "link": "https://www.ntnews.com/",
+      "image": "../assets/image/Namasthe Telangana.png",
+      "description": "Telugu language newspaper was founded in June, 2011.",
+      "id": 6
+    },
+    {
+      "name": "Praja sakthi",
+      "link": "https://www.prajasakti.com/",
+      "image": "../assets/image/Praja sakthi.png",
+      "description": "Leading Telugu newspaper based in Hyderabad.",
+      "id": 7
+    },
+    {
+      "name": "Suryaa",
+      "link": "http://telugu.suryaa.com/",
+      "image": "../assets/image/Suryaa.png",
+      "description": "Telugu newspaper published in Andhra Pradesh, India.",
+      "id": 8
+    },
+    {
+      "name": "gulte.com",
+      "link": "https://telugu.gulte.com/",
+      "image": "../assets/image/gulte.png",
+      "description": "Featuring political news and Movie news, reviews, and more.",
+      "id": 9
+    },
+    {
+      "name": "kommineni.info",
+      "link": "http://kommineni.info/",
+      "image": "../assets/image/kommineni.png",
+      "description": "A political news website.",
+      "id": 10
+    },
+    {
+      "name": "Telugu Times",
+      "link": "https://www.telugutimes.net/",
+      "image": "../assets/image/Telugu Times.png",
+      "description": "Telugu Times based in Hyderabad, the newspaper also printed in San Francisco and distributed throughout United States.",
+      "id": 11
+    },
+    {
+      "name": "Telugu news 18",
+      "link": "https://telugu.news18.com/",
+      "image": "../assets/image/Telugu news 18.png",
+      "description": "Telugu news site.",
+      "id": 12
+    },
+    {
+      "name": "TeluguMirchi.com",
+      "link": "https://www.telugumirchi.com/telugu/",
+      "image": "../assets/image/TeluguMirchi.png",
+      "description": "Todays Telugumirchi.com headlines: Observe fresh posts and updates on Telugu ... Get the latest telugu cinema information and movie reviews and rating.",
+      "id": 13
+    },
+    {
+      "name": "Namasthe Andhra",
+      "link": "https://namasteandhra.com/",
+      "image": "../assets/image/Namasthe Andhra.png",
+      "description": "Namasthe Andhra September 2016 web edition. ",
+      "id": 14
+    }
+  ],
+  "weather": [
+    {
+      "name": "The Weather Channel",
+      "link": "https://weather.com/",
+      "image": "../assets/image/The Weather Channel.png",
+      "description": "The Weather Channel and weather.com provide a national and local weather forecast for cities, as well as weather radar, report and hurricane coverage.",
+      "id": 1
+    },
+    {
+      "name": "Indian Meteorological Department",
+      "link": "https://mausam.imd.gov.in/",
+      "image": "../assets/image/Indian Meteorological Department.jpg",
+      "description": "Public Observation. (Multi Indian Languages) | Weather Realized. Specialized Forecast. Marine Forecast · Health Meteorological Bulletin · Tourism Forecast ...",
+      "id": 2
+    },
+    {
+      "name": "Windy",
+      "link": "https://www.windy.com/",
+      "image": "../assets/image/Windy.jpg",
+      "description": "Weather radar, wind and waves forecast for kiters, surfers, paragliders, ... Worldwide animated weather map, with easy to use layers and precise spot forecast.",
+      "id": 3
+    },
+    {
+      "name": "CNN",
+      "link": "https://www.cnn.com/weather",
+      "image": "../assets/image/CNN.png",
+      "description": "Get the latest weather news and forecasts from CNN meteorologists, watch extreme weather videos, learn about climate change and follow major hurricanes ...",
+      "id": 4
+    },
+    {
+      "name": "World Meteorological Organisation",
+      "link": "https://worldweather.wmo.int/",
+      "image": "../assets/image/World Meteorological Organisation.jpg",
+      "description": "This global web site presents OFFICIAL weather forecasts and climatological information for selected cities supplied by National Meteorological ...",
+      "id": 5
+    },
+    {
+      "name": "Weathernews",
+      "link": "https://global.weathernews.com/",
+      "image": "../assets/image/Weather News.jpg",
+      "description": "Weathernews Inc. is one of the world largest private weather information companies. We provide weather risk and data to companies around the world.",
+      "id": 6
+    },
+    {
+      "name": "AccuWeather",
+      "link": "https://www.accuweather.com/",
+      "image": "../assets/image/AccuWeather.png",
+      "description": "AccuWeather has local and international weather forecasts from the most accurate weather forecasting technology featuring up to the minute weather reports.",
+      "id": 7
+    },
+    {
+      "name": "Weather Forecast Worlwide",
+      "link": "https://www.weather-forecast.com/",
+      "image": "../assets/image/Weather Forecast Worlwide.jpg",
+      "description": "12 day weather forecast for thousands of places Worldwide. Interactive weather maps for every country on the planet.",
+      "id": 8
+    }
+  ]
+}
